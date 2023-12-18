@@ -1,0 +1,53 @@
+.topCard {
+    /* border: 1px red solid; */
+    min-width: 260px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px #aaaaaa;
+    cursor: pointer;
+}
+
+.topCardImg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.topCardImg img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cardBottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+.topCardRatings {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ratingBox {
+    background-color: #003b95;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.amount{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.pricing{
+    align-self: flex-end;
+}
